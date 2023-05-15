@@ -1,3 +1,5 @@
+Mirjalol language.json file yaratib shuni boshqalariga o'xshatib chiqa olasizmi??.
+Language change bulishini keyin qushib quyardik ishi kuopayib ketyaptida bittalab yozib chiqishga
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
