@@ -24,7 +24,7 @@ export default function Main({}: Props) {
               CYBER.AI
             </div>
             <div className="message-text message-text-response">
-              Salom. CYBER.AI Cyberpark tomonidan ishlab chiqilgan, bir nechta sun'iy intellekt modeli jamlanmas.
+              Salom! CYBER.AI Cyberpark tomonidan ishlab chiqilgan, bir nechta sun'iy intellekt modeli jamlanmas.
             </div>
           </div>
         </div>

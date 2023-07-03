@@ -1,0 +1,28 @@
+{
+    "section_title1": {
+        "uz": "Ovozli xabarni matnli ko'rinishga aylantirish",
+        "eng": "Ability to convert voice messages to text."
+    },
+    "message_user": {
+        "uz": "Siz",
+        "eng": "Give it a try"
+    }
+    ,
+    "message_example": {
+        "uz": "Salom! Menga CYBER.AI haqida ma'lumot ber!",
+        "eng": "Give it a try"
+    }
+    ,
+    "message_user_cyber": {
+        "uz": "CYBER.AI",
+        "eng": "Give it a try"
+    },
+    "message_example_cyber": {
+        "uz": "Salom! CYBER.AI Cyberpark tomonidan ishlab chiqilgan, bir nechta sun'iy intellekt modeli jamlanmas.",
+        "eng": "Give it a try"
+    },
+    "cyber_use_cases": {
+        "uz": "Qo'llanish mumkin bo'lgan sohalar",
+        "eng": "Give it a try"
+    }
+}
