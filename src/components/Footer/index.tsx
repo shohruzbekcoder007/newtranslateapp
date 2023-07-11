@@ -1,6 +1,5 @@
 import React from 'react'
-
-type Props = {}
+import lang from "./language.json"
 
 interface Language {
   footer_title1: {
@@ -8,6 +7,10 @@ interface Language {
     eng: string
   }
 }
+
+const language: Language = lang;
+
+type Props = {}
 
 export default function Footer({}: Props) {
   return (
