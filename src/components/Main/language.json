@@ -1,28 +1,104 @@
 {
     "section_title1": {
         "uz": "Ovozli xabarni matnli ko'rinishga aylantirish",
-        "eng": "Ability to convert voice messages to text."
+        "eng": ""
     },
     "message_user": {
         "uz": "Siz",
-        "eng": "Give it a try"
+        "eng": ""
     }
     ,
     "message_example": {
         "uz": "Salom! Menga CYBER.AI haqida ma'lumot ber!",
-        "eng": "Give it a try"
+        "eng": ""
     }
     ,
     "message_user_cyber": {
         "uz": "CYBER.AI",
-        "eng": "Give it a try"
+        "eng": ""
     },
     "message_example_cyber": {
         "uz": "Salom! CYBER.AI Cyberpark tomonidan ishlab chiqilgan, bir nechta sun'iy intellekt modeli jamlanmas.",
-        "eng": "Give it a try"
+        "eng": ""
     },
     "cyber_use_cases": {
         "uz": "Qo'llanish mumkin bo'lgan sohalar",
-        "eng": "Give it a try"
+        "eng": ""
+    },
+    "cyber_use_cases1": {
+        "uz": "Qo'llanish mumkin bo'lgan sohalar",
+        "eng": ""
+    },
+    "cyber_use_cases2_h1": {
+        "uz": "Suhbatlarni yozib borish",
+        "eng": ""
+    },
+    "cyber_use_cases2": {
+        "uz": "Bizning STT modelimizni suhbatlaringizni transkripsiya qilish uchun ishlatishingiz mumkin. Bu ishtirokchilarga qaydnomalarni yozishdan kora, muhokama qilinayotgan suhbat va fikrlarga e'tibor qaratish imkonini beradi.",
+        "eng": ""
+    },
+    "cyber_use_cases3_h1": {
+        "uz": "Audio qidiruv tizimlarini optimallashtirish",
+        "eng": ""
+    },
+    "cyber_use_cases3": {
+        "uz": "Ushbu modelizmiz orqali, siz o'z platforfangizdagi qidiruv tizimini yaxshilash imkoniyatiga ega bo'lasiz",
+        "eng": ""
+    },
+    "cyber_use_cases4_h1": {
+        "uz": "Call center transkripsiyasi",
+        "eng": ""
+    },
+    "cyber_use_cases4": {
+        "uz": "Bizning STT modelimi,  mijozlarga xizmat qo'ng'iroqlarini transkripsiya qilish uchun ishlatilishi mumkin. Bu orqali kompaniyalar mijozlariga xizmat ko'rsatish aloqalarini yaxshilash imkonini beradi.",
+        "eng": ""
+    },
+    "cyber_use_cases5_h1": {
+        "uz": "Jonli tadbirlar uchun avtomatlashtirilgan subtitr",
+        "eng": ""
+    },
+    "cyber_use_cases5": {
+        "uz": "Bu xizmat konferensiyalar uchun jonli subtitr yaratish uchun ishlatilishi mumkin, bu esa imkoniyati cheklangan yoki eshitish qobiliyati past bo'lgan ishtirokchilarga taqdimotlarni kuzatib borish imkonini beradi",
+        "eng": ""
+    },
+    "cyber_use_cases6_h1": {
+        "uz": "Til o'rganish",
+        "eng": ""
+    },
+    "cyber_use_cases6": {
+        "uz": "Nutqni aniqlash texnologiyasi, real vaqt rejimida nutqni bir tildan ikkinchi tilga tarjima qilish imkonini beradi.",
+        "eng": ""
+    },
+    "cyber_use_cases7_h1": {
+        "uz": "Diktant",
+        "eng": ""
+    },
+    "cyber_use_cases7": {
+        "uz": "Bizning STT modelimiz, foydalanuvchilarga elektron pochta xabarlari, hisobotlar va boshqa audio xabarlarni matn ko'rinishiga o'girishga yordam beradi.",
+        "eng": ""
+    },
+    "cyber_tarjimon": {
+        "uz": "CYBER.AI tarjimon",
+        "eng": ""
+    },
+    "testing_nima": {
+        "uz": "",
+        "eng": "What is testing?"
+    },
+    "use_case1_h1": {
+        "uz": "Uy jihozlarini ovozli xabar orqali avtomatlashtirish",
+        "eng": ""
+    },
+    "use_case1": {
+        "uz": "Bizning STT modelimiz, uyingizni ovozli buyruqlar bilan avtomatlashtirishn orqali, chiroqlar, termostatlar kabi qurilmalarni boshqarishga imkon beradi.Energiya samaradorligini oshirish, xavfsizlikni yaxshilash va qulaylik kabi bir qator afzalliklarni beruvchi ushbu ximzt, so'nggi yillarda uylarni avtomatlashtirish tizimlarini ommalashishiha sabab bo'lmoqda. Ushbu tizimlar odatda smartfon yoki planshet yordamida masofadan boshqarilishi mumkin bo'lgan bir qator aqlli qurilmalarni o'z ichiga oladi, foydalanuvchilarga dunyoning istalgan nuqtasidan chiroqlarni yoqish, termostatni sozlashga ruxsat beradi.",
+        "eng": ""
+    },
+    "use_case2_h1": {
+        "uz": "Ta'limda nutqni aniqlash",
+        "eng": ""
+    },
+    "use_case2": {
+        "uz": "Nutqni aniqlash texnologiyasi, o'quv ehtiyojlari keng bo'lgan talabalarni qo'llab-quvvatlash uchun maxsus ta'limda tobora ko'proq foydalanilmoqda. Diktant dasturi va ovozli xabardan matngacha bo'lgan jarayonlar, barcha talabalar uchun o'rganishni yanada qulayroq, qiziqarli va sifatli qilishga yordam beradi.",
+        "eng": ""
     }
 }

@@ -2,6 +2,13 @@ import React from 'react'
 
 type Props = {}
 
+interface Language {
+  footer_title1: {
+    uz: string,
+    eng: string
+  }
+}
+
 export default function Footer({}: Props) {
   return (
     <footer id="footer">
@@ -10,7 +17,7 @@ export default function Footer({}: Props) {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6">
-            <h4>Navbatga yozilish</h4>
+            <h4>{language.footer_title1.uz}</h4>
             <form action="" method="post">
               <input type="email" name="email"/><input type="submit" value="Yuborish"/>
             </form>
