@@ -1,6 +1,7 @@
 import React from 'react'
 import lang from "./language.json"
 import { useSelector } from 'react-redux'
+import Translate from '../Translate'
 
 interface Language {
   section_title1: {
@@ -72,10 +73,6 @@ interface Language {
     eng: string
   },
   cyber_use_cases7: {
-    uz: string,
-    eng: string
-  },
-  cyber_tarjimon: {
     uz: string,
     eng: string
   },
@@ -196,86 +193,14 @@ export default function Main({}: Props) {
         </div>
       </div>
     </section>
-    <section className="container translator-design" id="translation">
-      <div className="section-title">
-        <h2>{language.cyber_tarjimon[lang]}</h2>
-      </div>
-      <div className="main-translation">
-        <div className="title-translation">
-          <button>English</button>
-          <button><i className="bi bi-arrow-left-right"></i></button>
-          <button>Russian</button>
-        </div>
-        <div className="inner-translation">
-          <div className="left-side col-lg-6">
-            <div className="cancel-text">
-              <div className="text-input">
-                <textarea 
-                // spellcheck="false" 
-                className="from-text" placeholder="What is testing?">What is testing?</textarea>
-              </div>
-              <button><img src={require('../../img/icons/cancel.png')} alt=""/></button>
-            </div>
-            <div className="box-panel box-panel_bottom">
-              <div className="box-panel-container box-panel-container_left state-fadeaway">
-                <div className="box-button box-button-hidden">
-                 <button> <i className="bi bi-volume-up-fill"></i></button>
-                 <button> <i className="bi bi-mic-fill"></i></button>
-                 <button> <i className="bi bi-clipboard"></i></button>
-                </div>
-              </div>
-              <div className="box-panel-container box-panel-container_right">
-                <div id="textCounter"  className="src-textCounter state-unselectable state-fadeaway">
-                  <span id="textCounterContent">2</span>
-                  <span>/</span>
-                  <span id="textCounterLimit">1000</span>
-                  <button><i className="bi bi-keyboard"></i></button>
-                </div>
-              </div>
-              <div>
-              </div>
-            </div>
-          </div>
-          <div className="right-side col-lg-6">
-            <div className="copy-text">
-              <div className="text-input">
-                <textarea 
-                // spellcheck="false" 
-                // readonly 
-                disabled className="to-text" placeholder="Sinov nima?">Sinov nima?</textarea>
-              </div>
-              <button><img src={require('../../img/icons/copy.png')} alt=""/></button>
-            </div>
-            <div className="box-panel box-panel_bottom">
-              <div className="box-panel-container box-panel-container_left state-fadeaway">
-                <div className="box-button box-button-hidden">
-                 <button className="volume"> <i className="bi bi-volume-up-fill"></i></button>
-                </div>
-              </div>
-              <div className="box-panel-container box-panel-container_right">
-                <div id="textCounter" className="src-textCounter state-unselectable state-fadeaway">
-                  <button className="volume"><i className="bi bi-bookmark-star"></i></button>
-                  <button className="volume"><i className="bi bi-share-fill"></i></button>
-                 <div className="hand">
-                  <button className="volume-hand"><i className="bi bi-hand-thumbs-up-fill"></i></button>
-                  <button className="volume-hand"><i className="bi bi-hand-thumbs-down-fill"></i></button>   
-                 </div>
-                </div>
-              </div>
-              <div>
-              </div>
-            </div>      
-          </div>
-        </div>
-        </div>
-    </section>
+    <Translate/>
     <section id="skills" className="skills">
       <div className="container">
         <div className="row">
           <div className="col-lg-6  order-2 order-lg-1 hero-img">
             <img src={require('../../img/man-working.png')} className="img-fluid animated" alt=""/>
           </div>
-          <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-2 text-info">
+          <div data-aos="zoom-in" data-aos-delay="300" className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-2 text-info">
             <h1>{language.use_case1_h1[lang]}</h1>
             <p>{language.use_case1[lang]}</p>
           </div>
@@ -285,8 +210,8 @@ export default function Main({}: Props) {
     <section id="skill" className="skills">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 text-info">
-          <h1>{language.use_case2_h1[lang]}</h1>
+          <div data-aos="zoom-in" data-aos-delay="300" className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 text-info">
+            <h1>{language.use_case2_h1[lang]}</h1>
             <p>{language.use_case2[lang]}</p>
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img">

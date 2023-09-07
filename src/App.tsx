@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header'
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import Main from './components/Main';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <Header/>

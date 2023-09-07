@@ -77,10 +77,6 @@
         "uz": "Bizning STT modelimiz, foydalanuvchilarga elektron pochta xabarlari, hisobotlar va boshqa audio xabarlarni matn ko'rinishiga o'girishga yordam beradi.",
         "eng": "Our STT model could be integrated into dictation software, allowing users to easily dictate emails, reports, and other written content without having to type."
     },
-    "cyber_tarjimon": {
-        "uz": "CYBER.AI tarjimon",
-        "eng": "CYBER.AI translator"
-    },
     "testing_nima": {
         "uz": "",
         "eng": "What is testing?"
